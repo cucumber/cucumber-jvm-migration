@@ -63,7 +63,7 @@ public class CucumberAnnotationToSuite extends Recipe {
                 }
 
                 Supplier<JavaParser> javaParserSupplier = () -> JavaParser.fromJavaVersion()
-                        .classpathFromResources(ctx, "junit-platform-suite-api-1.9.2")
+                        .classpath("junit-platform-suite-api")
                         .build();
 
                 JavaType.FullyQualified classFqn = TypeUtils.asFullyQualified(classDecl.getType());

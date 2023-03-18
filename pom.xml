@@ -12,7 +12,7 @@
     </parent>
 
     <artifactId>cucumber-jvm-migration</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.1.0-SNAPSHOT</version>
 
     <name>Cucumber JVM Migration</name>
     <description>Migration module to upgrade projects using cucumber-jvm.</description>
